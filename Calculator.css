@@ -1,0 +1,49 @@
+.calculator {
+    Align: center;
+    Max-width: 200px;
+    Margin: 0 auto;
+    Padding: 20px;
+    Border: 1px solid #ccc;
+    Border-radius: 50px;
+    Background-color: black;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    Height: 200;
+    }
+    .display {
+    Font-size: 70px;
+    Text-align: right;
+    Margin-bottom: 70px;
+    Padding: 10px;
+    Border: 1px solid #ccc;
+    Border-radius: 10px;
+    Background-color: #fff;
+    }
+    .buttons {
+    Display: grid;
+    Grid-template-columns: repeat(4, 1fr);
+    Grid-gap: 100px;
+    }
+    Button {
+    Font-size: 20px;
+    Padding: 15px;
+    Border: none;
+    Border-radius: 50px;
+    Background-color: black;
+    Cursor: pointer;
+    Transition: background-color 0.3s ease;
+    Color: white;
+    }
+    Button:hover {
+    Background-color:white;
+    }
+    Button:active {
+    Background-color: #999;
+    }
+    .key{
+    Background-color:orange;
+    Width: 60px;
+    }
+    .key_light{
+    Background-color: gray;
+    }
+    
